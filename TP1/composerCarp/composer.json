@@ -1,0 +1,12 @@
+{
+    "name": "miche/composer-carp",
+    "authors": [
+        {
+            "name": "michelle charotti",
+            "email": "michellecharotti@gmail.com"
+        }
+    ],
+    "require": {
+        "namnv609/php-rest-countries": "^1.0"
+    }
+}
