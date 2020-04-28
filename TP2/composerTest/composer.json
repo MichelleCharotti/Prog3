@@ -1,0 +1,12 @@
+{
+    "name": "MichelleCharotti",
+    "authors": [
+        {
+            "name": "Michelle Charotti",
+            "email": "michellecharotti@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    }
+}
