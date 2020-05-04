@@ -1,0 +1,13 @@
+{
+    "name": "Michelle/Charotti",
+    "authors": [
+        {
+            "name": "Michelle Charotti",
+            "email": "michellecharotti@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "ajaxray/php-watermark": "^0.1.1"
+    }
+}
