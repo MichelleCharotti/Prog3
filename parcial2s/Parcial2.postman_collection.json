@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "00ebfe09-cfb4-4272-b864-bc67efa13109",
+		"name": "Parcial2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "D",
+			"item": [
+				{
+					"name": "registro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "clie@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mariana",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "user",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1/parcial2/public/users",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"parcial2",
+								"public",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "cliente2@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "1234",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/utn/utn-prog-3/Parciales/parcial2/public/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"utn",
+								"utn-prog-3",
+								"Parciales",
+								"parcial2",
+								"public",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eventos",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImNsaWVudGUyQGdtYWlsLmNvbSIsInRpcG8iOjJ9.rL9geWhg7xdVDf9KR9-puRFuurAEJoQBXKvr6tIOQQY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "tipo",
+									"value": "pato",
+									"type": "text"
+								},
+								{
+									"key": "fecha",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "descripcion",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1/parcial2/public/eventos",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"parcial2",
+								"public",
+								"eventos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eventos/2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InZldGVyaW5hcmlvQGdtYWlsLmNvbSIsInRpcG8iOjJ9.A2PQO40S1aJh5vL05-FPvnl0i94wVdCEfk5JbB2tybI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/utn/utn-prog-3/Parciales/parcial2/public/turnos/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"utn",
+								"utn-prog-3",
+								"Parciales",
+								"parcial2",
+								"public",
+								"turnos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eventos/3",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImNsaWVudGUyQGdtYWlsLmNvbSIsInRpcG8iOjJ9.rL9geWhg7xdVDf9KR9-puRFuurAEJoQBXKvr6tIOQQY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/utn/utn-prog-3/Parciales/parcial2/public/turnos/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"utn",
+								"utn-prog-3",
+								"Parciales",
+								"parcial2",
+								"public",
+								"turnos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
